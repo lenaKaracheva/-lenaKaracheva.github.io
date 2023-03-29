@@ -1,30 +1,38 @@
-cd путь до файла, папки
-Ls, dr
-mkdir? rmdir
+cd              путь до файла, папки
+Ls, dr          посмотреть все файлы      
+mkdir? rmdir    создать директорию, удалить директорию
 
-git!!
-git clone
-git pull
-git push
-git add .
-git commit -m ""
-git checout
-git branch
+git clone    клонировать репозиторий
+git pull     получить все изменния с удаленного репозитория 
+git push     передать все изменения в уд.реп
+git add .                добавить отслеживаемые
+git commit -m ""         коммитить
+git checout branch_name  переключиться на ветку 
+git branch               посмотреть все ветки
+git log                  посомтреть все коммиты
+git diff                 посмотреть все изменения
 
-
-
-
-
-
-
+HTML                
+DOCTYPE     структура
+html
+head
+body
 
 meta
-
-
+link
+style
 script
 
-body 
+body -всю разметку страницы
 
-div 
-span
-ul? 
+
+div - для разметки страницы
+span - для разметки текста
+ul, ol, li - списки
+img - картинка
+а - ссылка
+
+br
+blockquote
+mark
+hr
