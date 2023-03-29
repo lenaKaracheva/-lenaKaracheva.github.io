@@ -1,0 +1,30 @@
+cd путь до файла, папки
+Ls, dr
+mkdir? rmdir
+
+git!!
+git clone
+git pull
+git push
+git add .
+git commit -m ""
+git checout
+git branch
+
+
+
+
+
+
+
+
+meta
+
+
+script
+
+body 
+
+div 
+span
+ul? 
