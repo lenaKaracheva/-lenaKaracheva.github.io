@@ -1,17 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <form action="http://127.0.0.1:5500/Unit-6/tables.html"></form>
-    <input type="text" name="user" placeholder="введите логин"></input>
-    <input type="password" name="pass" placeholder="введите пароль"></input>
-    <input type="tel" name="phone" placeholder="введите телефон"></input>
-    <input type="mail" name="email" placeholder="введите емайл"></input>
-    <input type="submit" value="Отправить">
-</body>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="/UNIT-4/icons/favicon-32x32.png" type="image/x-icon">
+    <style>
+        form 
+        {
+            border: 2px solid rgb(58, 28, 28)
+            padding: 30px;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            gap: 20px;
+        }
+        label {
+            background-color:azure;
+            padding: 8px;
+        }
+    </style>
+  </head>
+  <body>
+    <main>
+        <h2 style="color: blue;">  Задание 2 - Тема:Формы </h2>
+    </main>
+	<fieldset>
+        <legend style="color: rgb(86, 58, 76);">Forms</legend>
+        <p>
+            <form action="http://127.0.0.1:5500/Unit-6/tables.html" method="past"></form>
+            <ol><Label for="user">Login </Label> <input type="text" name="user" placeholder="введите логин"></input></ol>
+            <ol><label for="pass">Password </label> <input type="password" name="pass" placeholder="введите пароль"></input></ol>
+            <ol><label for="phone">Phone</label><input type="tel" name="phone" placeholder="введите телефон"></input></ol>
+            <ol><label for="email">Email</label> <input type="mail" name="email" placeholder="введите емайл"></input></ol>
+         
+            <ol><input type="submit" value="Отправить"></ol>
+
+            <label> __Hidden <br> <input type="checkbox" name="hidden" value="today">
+            </label>
+            </label>
+            </form>
+        </p>
+    
+     </fieldset>
+  </body>
 </html>
