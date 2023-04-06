@@ -1,0 +1,32 @@
+/* селектор {
+    свойствоЖ значение;
+    свойствоЖ значение;
+    свойствоЖ значение;
+} */
+p::first-line{
+    color: red;
+}
+
+p::first-letter {
+    color: blue;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+p::before {
+    content: "+";
+    color: red;
+    width: 10px;
+    height: 10px;
+    background-color: aquamarine;
+    border-radius: 999px;
+    margin-right: 20px;
+    
+}
+
+p::after {
+    content: "+";
+    color: blue;
+    
+
+}
