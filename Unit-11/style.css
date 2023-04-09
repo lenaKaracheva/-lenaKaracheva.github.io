@@ -5,7 +5,8 @@
 } */
 p::first-line{
     color: red;
-}
+  
+    
 
 p::first-letter {
     color: blue;
@@ -22,17 +23,24 @@ p::before {
     border-radius: 999px;
     margin-right: 20px;
     background-image: url();
-    
 }
 
 p::after {
     content: "+";
     color: blue;
-    
-
+    border-radius: 999px;
+    margin-right: 20px;
+    background-image: url();
 }
-.lorem ::after {
+.lorem li {
+    list-style: none;
+    margin-bottom: 30px;    
+}
+.lorem a::after {
 
 }
 .famili-list li::marker { color: green;}
 a {text-decoration: none;}
+
+::placeholder 
+::marker 
