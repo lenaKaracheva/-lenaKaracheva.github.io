@@ -1,9 +1,9 @@
 header {
-    background-color: goldenrod;
+    background-color: rgb(79, 32, 218);
    }
 
 h1 {
-    color: #111;
+    color: #ee1d85;
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 250px;
     font-weight: bold; 
@@ -13,7 +13,7 @@ h1 {
     
 }
 h2 { 
-    color: #111; 
+    color: #0608aa; 
     font-family: 'Courier New', sans-serif; 
     font-size: 30px; 
     font-weight: 300px; 
@@ -22,7 +22,7 @@ h2 {
     text-align: center; 
 }
 h3 {
-    text-shadow: 2px 2px 4px rgba(179, 147, 211, 0.1),
+    text-shadow: 2px 2px 4px rgba(190, 3, 37, 0.847),
                3px 4px 4px rgba(179, 147, 211, 0.15),
                4px 6px 4px rgba(179, 147, 211, 0.2),
                5px 8px 4px rgba(179, 147, 211, 0.25);
