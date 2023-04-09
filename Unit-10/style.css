@@ -3,13 +3,17 @@ header {
    }
 
 h1 {
-    color: #ee1d85;
+    color: #d70a70;
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 250px;
     font-weight: bold; 
     letter-spacing: normal;
     line-height: 3px; 
     text-align: center; 
+    text-shadow: 10px 22px 12px rgba(37, 3, 9, 0.847),
+    3px 4px 4px rgba(179, 147, 211, 0.15),
+    4px 6px 4px rgba(179, 147, 211, 0.2),
+    5px 8px 4px rgba(179, 147, 211, 0.25);
     
 }
 h2 { 
@@ -26,6 +30,10 @@ h2 {
     padding: 16px 24px;
     position: relative;
     font-size: 26px;
+    text-shadow: 6px 6px 6px rgba(190, 3, 37, 0.847),
+    3px 4px 4px rgba(179, 147, 211, 0.15),
+    4px 6px 4px rgba(179, 147, 211, 0.2),
+    5px 8px 4px rgba(179, 147, 211, 0.25);
    
     color: #56ab29;
     font-style: italic;
@@ -49,21 +57,27 @@ h3 {
     column-width: 150px;
     column-gap: 3em;
     column-rule: 3px dotted goldenrod;  
+    
 }
 .article__paragraph::first-letter {
-font-size: 150%;
+font-size: 200%;
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #final__quote {
-    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 2px 5px rgba(120, 5, 5, 0.2);
     margin: 16px 16px 30px 16px;
     padding: 16px 24px;
     position: relative;
     font-size: 26px;
     background: #efefef;
-    color: #56ab29;
+    font-weight: bold; 
+    color: #307e09;
     font-style: italic;
+    text-shadow: 2px 2px 4px rgba(1, 25, 16, 0.847),
+    3px 4px 4px rgba(179, 147, 211, 0.15),
+    4px 6px 4px rgba(179, 147, 211, 0.2),
+    5px 8px 4px rgba(179, 147, 211, 0.25);
 }
 #final__quote::before {
     border: 14px solid transparent;
@@ -79,6 +93,8 @@ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     bottom: -25px;
     transform-origin: center;
     transform: rotate(90deg) skew(-25deg) translateY(17px);
+    
+    
 }
 #final__quote cite {
     position: absolute;
@@ -88,11 +104,13 @@ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: normal;
     font-weight: 300;
     color: #000;
+    
 }
 #final__quote :hover {
     font-size: 40px;
     color:rgb(183, 217, 14);
     background-color: gray;
+    
 }
 author {
     color:darkblue;
