@@ -20,7 +20,6 @@ h2 {
     color: #0608aa; 
     font-family: 'Courier New', sans-serif; 
     font-size: 30px; 
-    font-weight: 300px; 
     line-height: 32px; 
     margin: 0 0 50px; 
     text-align: center; 
@@ -47,7 +46,7 @@ h3 {
                font-style: italic;
 }
 .thesis {
-    font-family: Inder; sans-serif;
+    font-family: Inder; 
     line-height: 25px;
     margin-bottom: 15px;
     color: rgb(52, 20, 198);
@@ -115,8 +114,7 @@ author {
 }
 
 .caption__list {
-    counter-reset: li; 
-    list-style: repeating-linear-gradient()
+    counter-reset: li;     
     font: 14px "Trebuchet MS", "Lucida Sans";
     padding: 0;
     text-shadow: 0 1px 0 rgba(18, 0, 208, 0.5);
@@ -134,7 +132,7 @@ author {
     transition: .3s ease-out;
     }
     .caption__list a:hover {background: #b5eaa8; color: #020a03;}
-    .caption__list a:hover:before {transform: rotate3d();}
+    .caption__list a:hover:before {transform: scale(2,2)}
     .caption__list a:before {
     content: counter(li);
     counter-increment: li;
