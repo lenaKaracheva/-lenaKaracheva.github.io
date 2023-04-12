@@ -29,10 +29,7 @@ h2 {
     padding: 16px 24px;
     position: relative;
     font-size: 26px;
-    text-shadow: 6px 6px 6px rgba(190, 3, 37, 0.847),
-    3px 4px 4px rgba(179, 147, 211, 0.15),
-    4px 6px 4px rgba(179, 147, 211, 0.2),
-    5px 8px 4px rgba(179, 147, 211, 0.25);
+    
    
     color: #1e4f04;
     font-style: italic;

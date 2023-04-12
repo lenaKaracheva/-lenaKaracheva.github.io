@@ -3,19 +3,16 @@
     свойствоЖ значение;
     свойствоЖ значение;
 } */
-p::first-line{
-    color: red;
-  
-    
+body {width: 700px;}
+h2 {color: rgb(10, 204, 110);    text-align: center; }
+h3 {color: rgb(7, 22, 228);    text-align: center; }
+p::first-line{background-color: yellow; color: rgb(27, 9, 190);}
 
-p::first-letter {
-    color: blue;
+p::first-letter {color: rgb(180, 17, 50)    
     font-size: 3rem;
-    font-weight: 600;
-}
-
+    font-weight: 600;}
 p::before {
-    content: "+";
+    content: "";
     color: red;
     width: 10px;
     height: 10px;
@@ -24,23 +21,70 @@ p::before {
     margin-right: 20px;
     background-image: url();
 }
-
 p::after {
-    content: "+";
+    content: "";
     color: blue;
     border-radius: 999px;
     margin-right: 20px;
     background-image: url();
 }
-.lorem li {
+.start::first-line{
+    color: rgb(27, 9, 190);   
+}
+.cell::first-line{background-color: yellow; color: rgb(27, 9, 190);}
+
+.cell li {background-color: yellow;
     list-style: none;
     margin-bottom: 30px;    
+    
 }
-.lorem a::after {
+.cell a::after {
+background-color: aqua;
+}
+.cell li::marker { background-color: yellow;
+    color: rgb(222, 92, 10);}
 
-}
-.famili-list li::marker { color: green;}
 a {text-decoration: none;}
 
-::placeholder 
-::marker 
+.cell li::placeholder {
+    color: blueviolet;
+}
+.family li::marker { 
+    color: rgb(4, 156, 83);}
+
+a {text-decoration: none;}
+
+.family li::placeholder {
+    color: blueviolet;
+}
+.family{
+    font-size: small;
+    margin: 30px 10px;
+    height: 240px;
+    width: 200px;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    border: 10px dashed rgb(0, 247, 255);
+    box-sizing: border-box;
+}
+input {
+    border: 2px solid rgb(25, 32, 247);
+    outline: none;
+}
+input:focus {
+    border: 2px solid rgb(238, 42, 212); 
+}
+
+.bem__icon1::after {
+    content: '💪';
+}
+
+.bem__icon2::after {
+    content: '☝ ';
+}
+
+.bem__icon3::after {
+    content: '✌';
+}
