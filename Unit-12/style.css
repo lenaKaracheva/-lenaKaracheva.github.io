@@ -1,0 +1,158 @@
+html{box-sizing: border-box;}
+*, *::before, *::after{box-sizing: inherit;}
+.box{
+    width: 300px;
+    height: 200px;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-left: 25px;
+    margin: 30px 10px;
+    border: 10px solid rgb(5, 192, 142); 
+    font-size: x-small; 
+    background-color: aqua;
+    border-radius: 25px;
+}
+
+.box2{
+    font-size: small;
+    margin: 30px 10px;
+    background-color: rgb(230, 235, 209);
+    height: 200px;
+    width: 380px;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    border: thick double #32a1ce;
+    box-sizing: border-box;
+    box-shadow: 6px 6px #ccc,
+    12px 12px #a3a3a3;
+    border: 8px double #FF0000;
+    border-top: 4px dotted #FDD201;
+      
+}
+.box3{
+    font-size: small;
+    font: caption;
+    font: bold;
+    margin: 30px 10px;
+    background-color: rgb(234, 196, 4);
+    height: 220px;
+    width: 440px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    border: thick double #5c32ce;
+    box-sizing: border-box;
+    box-shadow: 16px 16px #8a3535,
+    12px 12px #a3a3a3;
+    border-radius: 45px;
+     border: 8px double #FF0000;
+     border-top: 4px dotted #FDD201;   
+}
+
+h1{display: inline;}
+
+.item, .item-1, .item-2{
+    width: 600px;
+    height: 150px;
+    padding: 20px 10px;
+    margin: 30px;
+    border: 10px solid red; 
+    font-size: small; 
+    background-color: aqua}
+.item-1{border-style: double;}
+.item-2{border-radius: 10px;}
+.item{position: relative;
+    top: 100px;
+    right: 100px;
+    bottom: 100px;
+    left: 100px;}
+    
+.squ{width: 400px;
+    height: 200px;
+    border-radius: 45px;
+    padding: 20px 20px;
+    margin: 30px;
+    border: 30px solid rgb(128, 128, 128); 
+    font-size: 140%; 
+    background-color: rgb(12, 222, 89);
+    border: dashed;
+    position: absolute;
+    top: 970px;
+    right: 400px;
+    bottom: 400px;
+    left: 500px;;}
+.newBox, .newBox-1, .newBox-2{
+    width: 400px;
+    height: 200px;
+    padding: 20px 10px;
+    margin: 30px;
+    border: 10px solid rgb(10, 193, 213); 
+    font-size: small; 
+    background-color: rgb(221, 137, 158);}
+.newBox-1{position: fixed; top: 600; left: 600px;}
+.newBox{position: absolute;
+    top: 970px;
+    right: 400px;
+    bottom: 400px;
+    left: 500px;    
+}
+    
+.action, .action-1, .action-2{
+    width: 400px;
+    height: 200px;
+    padding: 20px 10px;
+    margin: 30px;
+    border: 10px solid blue; 
+    font-size: small; 
+    background-color: rgb(192, 165, 165);}
+.action-1{position: absolute;
+        top: 970px;
+        right: 400px;
+        bottom: 400px;
+        left: 500px;    
+}
+        
+.action-1{   
+    border-radius: 25px;
+    border: 8px double #FF0000;
+    border-top: 4px dotted #FDD201;
+}
+.action{position: fixed;
+    top: 1px;
+    right: 200px;
+    bottom: 400px;
+    left: 600px;
+}
+    
+.kub, .kub-1, .kub-2{ 
+    width: 400px;
+    height: 200px;
+    padding: 20px 10px;
+    margin: 30px;
+    border: 10px solid green; 
+    font-size: small; 
+    border-radius: 25px;
+    border: groove;
+    border: 20px double #0095ff;
+    border-top: 4px dotted #12fd01;
+    
+    background-color: rgb(193, 216, 112)}
+    
+.kub1 {position: fixed;
+        top: 1px;
+        right: 200px;
+        bottom: 200px;
+        left: 700px;
+    }
+.kub{
+    position: sticky;
+    top: 1px;
+    right: 200px;
+    bottom: 400px;
+    left: 700px;
+
+}
