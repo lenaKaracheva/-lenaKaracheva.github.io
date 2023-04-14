@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,900;1,400;1,700;1,900&display=swap');
+@font-face {
+// название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) 
+font-family: "Lato-BlakRegular"; 
+// адрес шрифта и тип 
+src: url("/Unit-14/Font/Lato-Black.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
