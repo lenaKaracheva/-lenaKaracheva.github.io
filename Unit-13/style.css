@@ -1,0 +1,75 @@
+nav{padding: 0px 3px;}
+ul{
+    list-style: none;
+ display: flex;
+ flex-wrap: nowrap;
+ justify-content: space-between;
+ align-items: center;
+ border-bottom: 1px solid #828282;
+ height: 87.94px;
+ margin: 0px;
+ padding: 0px;   }
+
+.home{
+    color: #070707;
+    font-style: normal;
+    font-size: 18px;
+    order: 1;
+    }
+.about{
+ color: #828282;
+ font-style: normal;
+ font-size: 18px;
+ order: 2;
+  }
+
+.skills{
+ font-style: normal;
+ font-size: 18px;
+ color: #828282;
+ order: 3; }
+ 
+.portfolio{
+  font-style: normal;
+ font-size: 18px;
+ color: #828282;
+ order: 4;}
+.contacts{
+  font-style: normal;
+ font-size: 18px;
+ color: #828282;
+ order: 5;}
+
+ main{
+    display: flex;
+    width: 100%;
+    height:auto;
+    padding: 50px;
+    margin: 20px;
+    align-items: center;
+ }
+ img{
+    height: 200px;
+    width: 200PX;
+    border: 6px solid rgb(188, 56, 39);
+    padding: 10px;
+    box-sizing: border-box;
+  
+ }
+ img:hover{opacity: 0.5;}
+ 
+ div{
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+    border: 10px solid rgb(226, 170, 213);
+    margin: 0px 0px 0px 10px;
+    box-sizing: border-box;
+    background-image: url(/unit-5/picture/JPG.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;  
+        }
+div:hover{opacity: 3;}
+
+
