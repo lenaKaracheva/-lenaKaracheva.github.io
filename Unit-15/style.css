@@ -83,12 +83,7 @@ li {display: flex;
 
   .man:hover .mans{ transform: translateX(800px);}
   .look1{transition-timing-function: linear;}
-  .look2{transition-duration:1s;
-    transition-property: transform;
-    display: flex;
-    align-items: center;
-    animation-fill-mode: forwards;
-     }
+
      .slide-right {
         -webkit-animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
                 animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;

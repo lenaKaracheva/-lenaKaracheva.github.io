@@ -1,0 +1,49 @@
+@media screen {(min-width: 768px) {
+    img {width:500px;}
+}
+    
+
+div{position: relative;
+    margin-top:  100px;
+    margin-left: 100px;
+    width: 250px;
+    height: 300px;
+  
+    padding: 30px;
+    transition: all .3s ease-out;
+    filter: blur(0px);
+    
+
+}
+
+img{
+    display:block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.bw {
+    filter: grayscale(100%); /* Чёрно-белое изображение */
+    transition: 1.5s; /* Плавный переход */
+}
+.bw:hover {
+    filter: none; /* Убираем фильтр */
+}
+.tr{
+    ;
+}
+.tr:hover{
+    transform: rotate(90deg)
+               scale(0.5)
+               rotateX(180deg)
+               translateY(50%)
+               translateX(50%);
+
+    transition: 2s; 
+}
+
+body {background-color: bisque;}
+
+ 
