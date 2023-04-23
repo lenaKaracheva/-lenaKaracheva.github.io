@@ -1,0 +1,13 @@
+img {
+    box-sizing: border-box;
+    display: block;
+    width: 300px;
+    height: auto;
+    border: 6px solid rgb(174, 193, 174);
+}
+@media (min-width:680px) and ((max-width: 780px)) {
+    .pic_mob {
+        display: none;
+    }
+    .pic_desc
+}
